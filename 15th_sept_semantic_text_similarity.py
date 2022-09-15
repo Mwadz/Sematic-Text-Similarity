@@ -208,10 +208,10 @@ pickle.dump(XpathFinder, open(filename, 'wb'))
 #         st.write(st.write(most_acc["input_text"])) 
 #
 
-from pyngrok import ngrok
+# from pyngrok import ngrok
 
-ngrok.set_auth_token("29Mzs7BHkeeRGNZM41x0Rn4Xilq_7TYKeCLdR34nSS2qBCTzo")
+# ngrok.set_auth_token("29Mzs7BHkeeRGNZM41x0Rn4Xilq_7TYKeCLdR34nSS2qBCTzo")
 
-!nohup streamlit run app.py --server.port 80 &
-url = ngrok.connect(port = '80')
-print(url)
+# !nohup streamlit run app.py --server.port 80 &
+# url = ngrok.connect(port = '80')
+# print(url)
