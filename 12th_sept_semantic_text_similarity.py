@@ -11,13 +11,11 @@ with open('requirements.txt', 'w') as writefile:
     writefile.write("datasets")
     writefile.write("sentence_transformers")
     writefile.write("pandas")
-    writefile.write("numpy")
-#     writefile.write("anaconda3")
     writefile.write("streamlit")
-#     writefile.write("stqdm")
     writefile.write("sklearn")
     writefile.write("pickle")
-#     writefile.write("pyngrok")
+    writefile.write("numpy")
+
 
 """# Installations
 
@@ -25,6 +23,9 @@ with open('requirements.txt', 'w') as writefile:
 """
 
 #loading training set
+#     writefile.write("anaconda3")
+#     writefile.write("pyngrok")
+#     writefile.write("stqdm")
 import pandas as pd
 import numpy as np
 # from stqdm import stqdm
