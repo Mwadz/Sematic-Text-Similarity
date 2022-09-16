@@ -27,8 +27,8 @@ with open('requirements.txt', 'w') as writefile:
 #loading training set
 import pandas as pd
 import numpy as np
-# from stqdm import stqdm
-# stqdm.pandas()
+from stqdm import stqdm
+stqdm.pandas()
 from datasets import load_dataset
 
 
