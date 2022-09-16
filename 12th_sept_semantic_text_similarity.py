@@ -7,14 +7,16 @@ Original file is located at
     https://colab.research.google.com/drive/1bR3DR5DJnq9WrxEVFlZ-6gHyfJBS2ppv
 """
 
-with open('requirements.txt', 'w') as writefile:
-    writefile.write("datasets")
-    writefile.write("sentence_transformers")
-    writefile.write("pandas")
-    writefile.write("streamlit")
-    writefile.write("sklearn")
-    writefile.write("pickle")
-    writefile.write("numpy")
+# Commented out IPython magic to ensure Python compatibility.
+# %%writefile requirements.txt
+# datasets
+# sentence_transformers
+# pandas
+# streamlit
+# sklearn
+# pickle
+# numpy
+
 
 
 """# Installations
