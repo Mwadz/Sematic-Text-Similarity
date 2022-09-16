@@ -12,10 +12,10 @@ Original file is located at
 # datasets
 # sentence_transformers
 # pandas
-# streamlit
+# streamlit==22.2.2 
 # sklearn
 # pickle
-# numpy
+# numpy==1.13.3
 
 
 
