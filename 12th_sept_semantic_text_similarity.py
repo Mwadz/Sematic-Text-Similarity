@@ -14,7 +14,7 @@ with open('requirements.txt', 'w') as writefile:
     writefile.write("numpy")
 #     writefile.write("anaconda3")
     writefile.write("streamlit")
-#     writefile.write("stqdm")
+    writefile.write("stqdm")
     writefile.write("sklearn")
     writefile.write("pickle")
     writefile.write("pyngrok")
