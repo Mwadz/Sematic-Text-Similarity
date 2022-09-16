@@ -12,7 +12,7 @@ with open('requirements.txt', 'w') as writefile:
     writefile.write("sentence_transformers")
     writefile.write("pandas")
     writefile.write("numpy")
-    writefile.write("anaconda3")
+#     writefile.write("anaconda3")
     writefile.write("streamlit")
 #     writefile.write("stqdm")
     writefile.write("sklearn")
