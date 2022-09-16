@@ -9,10 +9,11 @@ Original file is located at
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile requirements.txt
+# pip ==22.2.2
 # datasets
 # sentence_transformers
 # pandas
-# streamlit==22.2.2 
+# streamlit 
 # sklearn
 # pickle
 # numpy==1.13.3
