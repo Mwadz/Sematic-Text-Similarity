@@ -10,12 +10,14 @@ Original file is located at
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile requirements.txt
 # pip ==22.2.2
+# pip3
 # datasets
 # sentence_transformers
 # pandas
 # streamlit 
 # sklearn
 # pickle
+# tqdm
 # numpy==1.13.3
 
 
@@ -31,8 +33,8 @@ Original file is located at
 #     writefile.write("stqdm")
 import pandas as pd
 import numpy as np
-# from stqdm import stqdm
-# stqdm.pandas()
+# from tqdm import tqdm
+# tqdm.pandas()
 from datasets import load_dataset
 
 
