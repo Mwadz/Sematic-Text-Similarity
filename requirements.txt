@@ -1,0 +1,9 @@
+pip
+datasets
+sentence_transformers
+pandas
+numpy
+tqdm
+sklearn
+streamlit
+pyngrok
